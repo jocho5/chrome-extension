@@ -11,6 +11,13 @@ const jokesArr = [
 document.addEventListener('DOMContentLoaded', () => {
     const randomJoke = Math.floor(Math.random() * jokesArr.length);
 
+    // document.getElementById('joke').textContent = jokesArr[randomJoke].joke;
+
+    const img = document.createElement('img');
+    img.src = 'Images/cn-thumbs.png'
+
     document.getElementById('joke').textContent = jokesArr[randomJoke].joke;
+    
+    document.getElementById('placehere').appendChild(img);
 
 })

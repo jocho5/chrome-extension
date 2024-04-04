@@ -1,1 +1,16 @@
 /* placeholder file > can add styling if we have time */
+
+div {
+    color: black;
+    background-color: grey;
+    font-size: 40px;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+/* #placehere {
+    justify-content: center;
+    align-items: center;
+} */
