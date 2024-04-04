@@ -1,1 +1,17 @@
-console.log('This is a popup!');
+alert('This is a popup!');
+
+// boilerplate?
+// chrome.runtime.onInstalled.addListener(() => {
+//     chrome.action.setBadgeText({
+//       text: 'OFF'
+//     });
+//   });
+
+
+
+// chrome.action.onClicked.addListener((tab) => {
+//   chrome.scripting.executeScript({
+//     target: {tabId: tab.id},
+//     files: ['content.js']
+//   });
+// });
