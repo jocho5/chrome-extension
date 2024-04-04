@@ -1,10 +1,26 @@
 {
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
+    "name": "AdBlockerExtension",
+    "description": "Blocks ads",
     "version": "1.0",
     "manifest_version": 3,
+    
+    "host_permissions": [
+        "*://*/*"
+    ],
+
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback"
+    ],
+
+    // "background": {
+    //     "service_worker": "background.js"
+    // },
+
     "action": {
-      "default_popup": "hello.html",
-      "default_icon": "hello_extensions.png"
+        "default_icon": "images/eagles-icon.png",
+        "default_popup": "background.js"
     }
-  }
+}
+
+
