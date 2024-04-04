@@ -1,26 +1,10 @@
 {
-    "name": "AdBlockerExtension",
-    "description": "Blocks ads",
+    "name": "ChuckNorrisDevJokes",
+    "description": "Delivers dev-related Chuck Norris jokes",
     "version": "1.0",
     "manifest_version": 3,
-    
-    "host_permissions": [
-        "*://*/*"
-    ],
-
-    "permissions": [
-        "declarativeNetRequest",
-        "declarativeNetRequestFeedback"
-    ],
-
-    // "background": {
-    //     "service_worker": "background.js"
-    // },
-
     "action": {
-        "default_icon": "images/eagles-icon.png",
-        "default_popup": "background.js"
+        "default_icon": "Images/cn-icon.png",
+        "default_popup": "index.html"
     }
 }
-
-
